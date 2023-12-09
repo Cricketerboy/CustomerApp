@@ -1,0 +1,69 @@
+name: deliveryapp
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  pin_code_fields: ^7.3.0
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/PoppinsBold.ttf
+          weight: 700
+        - asset: assets/fonts/PoppinsRegular.ttf
+          weight: 400
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsLight.ttf
+          weight: 300
+    - family: Nokora
+      fonts: 
+        - asset: assets/fonts/NokoraBold.ttf
+          weight: 700
+        - asset: assets/fonts/NokoraRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NokoraBlack.ttf
+          weight: 900
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+    - family: Montserrat
+      fonts: 
+        - asset: assets/fonts/MontserratRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/MontserratRomanBold.ttf
+          weight: 700
+    - family: Passion One
+      fonts: 
+        - asset: assets/fonts/PassionOneRegular.ttf
+          weight: 400
+    - family: Numans
+      fonts: 
+        - asset: assets/fonts/NumansRegular.ttf
+          weight: 400
+    - family: Nunito Sans
+      fonts: 
+        - asset: assets/fonts/NunitoSansBold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoSansBlack.ttf
+          weight: 900
+    - family: DM Sans
+      fonts: 
+        - asset: assets/fonts/DMSansBold.ttf
+          weight: 700
